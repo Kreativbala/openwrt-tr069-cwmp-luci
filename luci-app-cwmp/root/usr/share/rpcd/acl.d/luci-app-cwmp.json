@@ -1,0 +1,11 @@
+{
+	"luci-app-cwmp": {
+		"description": "Grant UCI access for luci-app-cwmp",
+		"read": {
+			"uci": [ "cwmp", "stunc" ]
+		},
+		"write": {
+			"uci": [ "cwmp", "stunc" ]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"admin/services/cwmp": {
+		"title": "TR-069 (CWMP)",
+		"order": 50,
+		"action": {
+			"type": "view",
+			"path": "cwmp"
+		},
+		"depends": {
+			"acl": [ "luci-app-cwmp" ],
+			"uci": { "cwmp": true }
+		}
+	}
+}
